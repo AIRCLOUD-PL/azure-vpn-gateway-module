@@ -314,3 +314,29 @@ Enable diagnostic settings to collect:
 ## License
 
 This module is licensed under the MIT License.
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+
+<!-- BEGIN_TF_DOCS -->
+<!-- END_TF_DOCS -->
