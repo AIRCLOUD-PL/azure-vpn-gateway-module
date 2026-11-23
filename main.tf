@@ -59,8 +59,8 @@ resource "azurerm_virtual_network_gateway" "vpn_gateway" {
       dynamic "revoked_certificate" {
         for_each = vpn_client_configuration.value.revoked_certificates
         content {
-          name          = revoked_certificate.value.name
-          thumbprint    = revoked_certificate.value.thumbprint
+          name       = revoked_certificate.value.name
+          thumbprint = revoked_certificate.value.thumbprint
         }
       }
 
